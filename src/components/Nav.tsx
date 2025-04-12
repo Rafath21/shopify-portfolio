@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+// Import email icon
+import { FaEnvelope } from 'react-icons/fa';
 
 // TODO: Add social icons (GitHub, LinkedIn, etc.)
 const Nav = () => {
@@ -18,18 +20,27 @@ const Nav = () => {
 
           {/* Right side: Navigation Links */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            {/* Combine nav links and email icon */}
+            <div className="ml-10 flex items-center space-x-4">
               <Link href="/#about" className="text-slate-300 hover:bg-slate-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 About
               </Link>
               <Link href="/#experience" className="text-slate-300 hover:bg-slate-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Experience
               </Link>
-              <Link href="/#projects" className="text-slate-300 hover:bg-slate-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Projects
+              <Link href="/#skills" className="text-slate-300 hover:bg-slate-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                Skills
               </Link>
-              {/* TODO: Add active link styling */}
-              {/* TODO: Consider mobile menu button */}
+              {/* Email Icon Link */}
+              <a 
+                href="mailto:rafathsweb@gmail.com"
+                aria-label="Email Rafath Unnisa"
+                title="Email Rafath Unnisa"
+                className="text-slate-300 hover:text-white p-2 rounded-md"
+              >
+                <span className="sr-only">Email</span>
+                <FaEnvelope className="h-5 w-5" /> { /* Adjusted size */ }
+              </a>
             </div>
           </div>
           {/* Mobile Menu Button Placeholder */}
@@ -55,7 +66,15 @@ const Nav = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-slate-900/95 border-t border-slate-700">
           <Link href="/#about" className="text-slate-300 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
           <Link href="/#experience" className="text-slate-300 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Experience</Link>
-          {/* TODO: Consider mobile menu button */}
+          <Link href="/#skills" className="text-slate-300 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</Link>
+          {/* Email Link for Mobile */}
+          <a 
+            href="mailto:rafathsweb@gmail.com"
+            className="text-slate-300 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            aria-label="Email Rafath Unnisa"
+          >
+             Email Me
+          </a>
         </div>
       </div>
     </nav>

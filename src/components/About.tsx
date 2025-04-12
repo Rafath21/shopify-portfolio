@@ -3,8 +3,8 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="mb-8 scroll-mt-24 md:mb-12 lg:mb-16 lg:scroll-mt-24" aria-label="About me">
-      <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl mb-8">
+    <section id="about" className="mb-4 scroll-mt-24 md:mb-6 lg:mb-8 lg:scroll-mt-24" aria-label="About me">
+      <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl mb-4">
         About Me
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 items-start">

@@ -2,14 +2,14 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section id="experience" className="mb-8 scroll-mt-24 md:mb-12 lg:mb-16 lg:scroll-mt-24" aria-label="Work experience">
+    <section id="experience" className="mb-4 scroll-mt-24 md:mb-6 lg:mb-8 lg:scroll-mt-24" aria-label="Work experience">
       <div>
-        <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl mb-8">
+        <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl mb-4">
           Experience
         </h2>
         <ol className="group/list">
           {/* === First Experience Item (Kite) === */}
-          <li className="mb-12">
+          <li className="mb-6">
             <a 
               href="https://apps.shopify.com/kite-free-gift" 
               target="_blank" 
@@ -47,7 +47,7 @@ const Experience = () => {
             </a>
           </li>
           {/* === Second Experience Item (GiftKart) === */}
-          <li className="mb-12">
+          <li className="mb-6">
             <a 
               href="https://apps.shopify.com/giftkart"
               target="_blank" 
@@ -100,7 +100,7 @@ const Experience = () => {
             </a>
           </li>
            {/* === Third Experience Item (Checkout Wizard) === */}
-          <li className="mb-12">
+          <li className="mb-6">
             <a 
               href="https://apps.shopify.com/checkout-pro"
               target="_blank" 
@@ -148,7 +148,7 @@ const Experience = () => {
             </a>
           </li>
           {/* === Fourth Experience Item (Easy Bundles) === */}
-          <li className="mb-12">
+          <li className="mb-6">
             <a 
               href="https://apps.shopify.com/bundle-builder" 
               target="_blank" 
@@ -191,13 +191,13 @@ const Experience = () => {
             </a>
           </li>
         </ol>
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="/resume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View Full Résumé (opens in a new tab)">
             <span>
               View Full <span className="inline-block">Résumé</span>
             </span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

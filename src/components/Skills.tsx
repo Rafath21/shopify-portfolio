@@ -54,8 +54,8 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="mb-8 scroll-mt-24 md:mb-12 lg:mb-16 lg:scroll-mt-24" aria-label="Skills">
-      <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl mb-8">
+    <section id="skills" className="mb-4 scroll-mt-24 md:mb-6 lg:mb-8 lg:scroll-mt-24" aria-label="Skills">
+      <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl mb-4">
         My Skills
       </h2>
       {/* Grid for skill cards - adjust columns as needed */}
