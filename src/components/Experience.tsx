@@ -29,7 +29,7 @@ const Experience = () => {
                   Discounting App Powered By Shopify Functions 
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                   Kite is a game-changer for Shopify merchants, and I'm proud to have played a key role in its development. Leading the Custom Functions feature built with Rust, I tackled niche, complex challenges to deliver highly tailored solutions that merchants love. Hundreds of stores now rely on Kite's seamless Shopify API integration, and once they're onboarded, they never look back. My work focused on crafting clean, efficient code to ensure a flawless experience, helping merchants unlock new possibilities for their businesses.
+                   Kite is a game-changer for Shopify merchants, and I&apos;m proud to have played a key role in its development. Leading the Custom Functions feature built with Rust, I tackled niche, complex challenges to deliver highly tailored solutions that merchants love. Hundreds of stores now rely on Kite&apos;s seamless Shopify API integration, and once they&apos;re onboarded, they never look back. My work focused on crafting clean, efficient code to ensure a flawless experience, helping merchants unlock new possibilities for their businesses.
                 </p>
                 <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                   <li className="mr-1.5 mt-2">

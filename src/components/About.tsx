@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'; // Import Next.js Image component
+// import Image from 'next/image'; // Removed unused import
 
 const About = () => {
   return (
@@ -10,10 +10,10 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 items-start">
         <div className="md:col-span-2">
           <p className="mb-4">
-            Hey, I'm Rafath! I'm a Shopify developer passionate about creating tools that empower e-commerce businesses to thrive. 
+            Hey, I&apos;m Rafath! I&apos;m a Shopify developer passionate about creating tools that empower e-commerce businesses to thrive. 
           </p>
           <p className="mb-4">
-             With 3-4 years of experience, I've helped build 
+             With 3-4 years of experience, I&apos;ve helped build 
              <a 
                href="https://apps.shopify.com/partners/skai-lama" 
                target="_blank" 
@@ -28,7 +28,7 @@ const About = () => {
             I specialize in clean code, solving tough challenges, and delivering solutions that drive sales and streamline operations. My goal? To craft apps and customizations that perfectly match your vision.
           </p>
           <p>
-             Let's build something extraordinary together!
+             Let&apos;s build something extraordinary together!
           </p>
         </div>
         <div className="md:col-span-1">

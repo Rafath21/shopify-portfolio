@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'; // Import Image if using Next.js Image component
+// import Image from 'next/image'; // Removed unused import
 
 const Projects = () => {
   return (
