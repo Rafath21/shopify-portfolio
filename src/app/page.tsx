@@ -8,7 +8,7 @@ import { FaLinkedin, FaXTwitter } from 'react-icons/fa6'; // Using fa6 for newer
 
 export default function Home() {
   return (
-    <div className="flex flex-col pt-24 lg:pt-0"> {/* Adjusted padding for consistency */}
+    <div className="flex flex-col">
       <About />
       <Experience />
       <Skills />
