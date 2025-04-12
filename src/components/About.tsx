@@ -1,5 +1,5 @@
 import React from 'react';
-// import Image from 'next/image'; // Removed unused import
+import Image from 'next/image'; // Re-added import
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
         About Me
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 items-start">
-        <div className="md:col-span-2">
+        <div className="md:col-span-2 leading-normal">
           <p className="mb-4">
             Hey, I&apos;m Rafath! I&apos;m a Shopify developer passionate about creating tools that empower e-commerce businesses to thrive. 
           </p>
@@ -31,10 +31,16 @@ const About = () => {
              Let&apos;s build something extraordinary together!
           </p>
         </div>
-        <div className="md:col-span-1">
-          <div className="aspect-square bg-slate-700 rounded-lg flex items-center justify-center">
-             <span className="text-slate-400">Image Placeholder</span>
-          </div>
+        <div className="md:col-span-1 pt-2 flex justify-center"> { /* Added flex justify-center */ }
+          <Image 
+            src="/shopify_expert.jpg" 
+            alt="Photo of Rafath Unnisa" 
+            width={300} // Increased size to 300
+            height={300} // Increased size to 300
+            className="rounded-lg object-cover transition-all duration-300 group-hover:scale-105" // Still no aspect-square
+            priority 
+          />
+          {/* Note: Ensure the actual file extension (.jpg, .png, etc.) matches the src path */}
         </div>
       </div>
     </section>
