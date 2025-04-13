@@ -7,7 +7,7 @@ const About = () => {
       <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl mb-4">
         About Me
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12 items-start">
         <div className="md:col-span-2 leading-normal">
           <p className="mb-4">
             Hey, I&apos;m Rafath! I&apos;m a Shopify developer passionate about creating tools that empower e-commerce businesses to thrive. 
@@ -31,13 +31,13 @@ const About = () => {
              Let&apos;s build something extraordinary together!
           </p>
         </div>
-        <div className="md:col-span-1 pt-2 flex justify-center"> { /* Added flex justify-center */ }
+        <div className="md:col-span-2 pt-2 flex justify-center">
           <Image 
             src="/shopify_expert.jpg" 
             alt="Photo of Rafath Unnisa" 
-            width={300} // Increased size to 300
-            height={300} // Increased size to 300
-            className="rounded-lg object-cover transition-all duration-300 group-hover:scale-105" // Still no aspect-square
+            width={800} // Increased size significantly
+            height={800} // Increased size significantly
+            className="rounded-lg object-cover transition-all duration-300 group-hover:scale-105" 
             priority 
           />
           {/* Note: Ensure the actual file extension (.jpg, .png, etc.) matches the src path */}
